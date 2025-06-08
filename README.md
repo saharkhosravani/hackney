@@ -18,7 +18,6 @@ __Version:__ 1.23.0
 - no message passing (except for asynchronous responses): response is
   directly streamed to the current process and state is kept in a `#client{}` record.
 - binary streams
-- SSL support
 - Keepalive handling
 - basic authentication
 - stream the response and the requests
